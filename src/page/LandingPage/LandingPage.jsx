@@ -1,10 +1,14 @@
 import React from 'react'
 import Bannar from '../../components/Bannar/Bannar'
+import MySkills from '../../components/Skills/Skills'
+import MyProjects from '../../components/myProjects/myProjects'
 
 const LandingPage = () => {
     return (
         <>
-        <Bannar/>
+            <Bannar />
+            <MySkills/>
+            <MyProjects/>
         </>
     )
 }
