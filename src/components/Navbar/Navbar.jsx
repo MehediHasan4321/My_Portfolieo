@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import Resume from '../../assets/resume/resume.pdf'
 const Navbar = () => {
     const [show, setShow] = useState(false)
     return (
@@ -15,7 +16,7 @@ const Navbar = () => {
                         <Link to={'/'}>Home</Link>
                         <Link to={'/contact'}>Contact</Link>
                         <Link to={'https://github.com/MehediHasan4321'} target='_blank"'>My Github</Link>
-                        <a href="" download={''}><button className='bg-purple-400 py-1 px-2'>Download Resume</button></a>
+                        <a href={Resume} download={'Resume'}><button className='bg-purple-400 py-1 px-2'>Download Resume</button></a>
                     </div>
                     <FaBars onClick={() => setShow(!show)} className='text-2xl cursor-pointer md:hidden mr-4' />
                 </div>
@@ -24,7 +25,7 @@ const Navbar = () => {
                 <Link to={'/'}>Home</Link>
                 <Link to={'/contact'}>Contact</Link>
                 <Link to={'https://github.com/MehediHasan4321'} target='_blank"'>My Github</Link>
-                <a href="" download={''}><button className='bg-purple-400 py-1 px-2'>Download Resume</button></a>
+                <a href={Resume} download={'Resume'}><button className='bg-purple-400 py-1 px-2'>Download Resume</button></a>
             </div>
         </>
     )
