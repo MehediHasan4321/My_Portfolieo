@@ -17,17 +17,17 @@ const Contact = () => {
         console.log(contactInfo)
     }
     return (
-        <div className='container mx-auto my-20 flex h-auto w-full'>
+        <div className='container mx-auto my-20 md:flex h-auto w-full'>
             <div>
                 <img className='w-96 h-96  rounded-xl object-cover' src={contacts.image} alt="my Image" />
-                <div className=' space-y-3'>
+                <div className=' space-y-3 p-4'>
                     <h1 className='text-xl md:text-4xl'>{contacts?.name}</h1>
                     <h1 className='text-xl'>Email : {contacts?.email}</h1>
                     <h1 className='text-xl'>Phone : {contacts?.phone}</h1>
                     <h1 className='text-xl'>My Github : {contacts?.github}</h1>
                 </div>
             </div>
-            <form onSubmit={handleContact} className='space-y-3 w-full md:ml-10'>
+            <form onSubmit={handleContact} className='space-y-3 w-full md:ml-10 mt-4'>
                 <div className='w-full flex gap-3'>
                     <input required className='py-2 bg-neutral-100 px-4 w-full' type="text" name="name" id="name" placeholder='Enter Your Name' />
                     <input required className='py-2 bg-neutral-100 px-4 w-full' type="email" name="email" id="email" placeholder='Enter Your email' />
