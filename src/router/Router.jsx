@@ -4,6 +4,7 @@ import Home from '../Loayout/Home/Home'
 import About from '../page/About/About'
 import Contact from '../page/Contact/Contact'
 import LandingPage from '../page/LandingPage/LandingPage'
+import MyProjects from '../components/myProjects/myProjects'
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
             {
                 path:'/contact',
                 element:<Contact/>
+            },
+            {
+                path:'/myProjects',
+                element:<MyProjects/>
             }
         ]
     }

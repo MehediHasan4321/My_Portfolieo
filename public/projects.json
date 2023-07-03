@@ -1,7 +1,7 @@
 [
     {
         "image":"https://i.ibb.co/fC6MZgz/Screenshot-3.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ea delectus quo magni dolore natus mollitia recusandae ad vel sit accusamus adipisci quia, a laudantium iste magnam assumenda suscipit praesentium!",
+        "description":"Photostat is platfrom where any photgrapher can sell thire course with very eeayest way. Our site has many category like course section instractor section dsashboard, login, logout,and also have a google login systems",
         "tecnology":["React", "Node.js"," Express.js", "MongoDB", "Firebase", "Tailwind Css", "Stripe Payments Methods", "Axios","JWT"],
         "projectName":"Photostat",
         "reverse":false,
@@ -22,7 +22,7 @@
     },
     {
         "image":"https://i.ibb.co/B4RfrKw/Screenshot-7.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam ea delectus quo magni dolore natus mollitia recusandae ad vel sit accusamus adipisci quia, a laudantium iste magnam assumenda suscipit praesentium!",
+        "description":"Toy zone is a Online toy seller website.Our website has many usefull section like home page, product category,images gallary,user feedback,also have a contact and footer section. We are besicaly selles 'Action Toy','Marvel Toy','Star Wars Toy' and etc.Toy Zone website is fully fullstack website that's why it's has Tow main section and there are Customer Section and other is 'Seller Section' Customer Section customer can buy product,seeing details about product and can rating it's product; On the Seller can handles his/her shop like seller can added product at any time,also seller can delete,update, can do at any time",
         "tecnology":["React", "Node.js"," Express.js", "MongoDB", "Firebase", "Tailwind Css","daisyUi"],
         "projectName":"Toy Zone",
         "reverse":true,
