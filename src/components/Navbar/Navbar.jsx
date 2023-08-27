@@ -14,6 +14,7 @@ const Navbar = () => {
                     </Link>
                     <div className='md:flex items-center gap-6 hidden'>
                         <Link to={'/'}>Home</Link>
+                        <Link to={'/myProjects'}>Projects</Link>
                         <Link to={'/contact'}>Contact</Link>
                         <Link to={'https://github.com/MehediHasan4321'} target='_blank"'>My Github</Link>
                         <a href={Resume} download={'Resume'}><button className='bg-purple-400 py-1 px-2'>Download Resume</button></a>
