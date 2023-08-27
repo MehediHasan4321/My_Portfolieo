@@ -36,5 +36,22 @@
                 "link":"https://github.com/MehediHasan4321/toy-zone-clientside"
             }
         ]
+    },
+    {
+        "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2021/12/home-3.jpg",
+        "description":"Toy zone is a Online toy seller website.Our website has many usefull section like home page, product category,images gallary,user feedback,also have a contact and footer section. We are besicaly selles 'Action Toy','Marvel Toy','Star Wars Toy' and etc.Toy Zone website is fully fullstack website that's why it's has Tow main section and there are Customer Section and other is 'Seller Section' Customer Section customer can buy product,seeing details about product and can rating it's product; On the Seller can handles his/her shop like seller can added product at any time,also seller can delete,update, can do at any time",
+        "tecnology":["React", "Node.js"," Express.js", "MongoDB", "Firebase", "Tailwind Css","daisyUi"],
+        "projectName":"Plant Shoop",
+        "reverse":false,
+        "links":[
+            {
+                "name":"Preview The Site",
+                "link":"https://my-toy-shop-c6e58.web.app/"
+            },
+            {
+                "name":"Client site link",
+                "link":"https://github.com/MehediHasan4321/toy-zone-clientside"
+            }
+        ]
     }
 ]

@@ -16,7 +16,7 @@ const MyProjects = () => {
         <div className='px-2'>
             {projects.map((project, index) => <div key={index} className={project?.reverse ? 'container mx-auto py-20 md:flex flex-row-reverse gap-5 md:gap-20' : 'container mx-auto py-20 md:flex gap-5 md:gap-20'}>
                 <img className='w-full  md:w-1/2' src={project?.image} alt="my projects Image" />
-                <div className='space-y-4'>
+                <div className='space-y-4 w-full md:w-1/2'>
                     <h1 className='text-xl md:text-4xl font-semibold'>{project?.projectName}</h1>
                     <p>{project?.description}</p>
                     <div>
